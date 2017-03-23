@@ -32,5 +32,6 @@ public interface PetRepository extends JpaRepository<Pet, Integer> {
 
     List<Pet> findByBirthDateBetweenOrderByBirthDateAsc(Date d1, Date d2);
     
+    
 }
 

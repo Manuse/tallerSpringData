@@ -134,7 +134,7 @@ public class Visit extends BaseEntity {
 	public void setBill(Bill bill) {
 		this.bill = bill;
 	}
-
+	
 
 	@Override
 	public String toString() {
